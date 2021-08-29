@@ -5,3 +5,119 @@
     border-width: 0.3px;
     background-color: #ffffff;
 }
+
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+    padding: 20px;
+  }
+  
+  #header {
+    position: relative;
+    min-height: 150px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #header img {
+    max-width: 355px;
+    postion: relative;
+  }
+  
+  #ribbon {
+    background-color: #6b4259;
+    width: 320px;
+    padding: 10px;
+    position: relative;
+    margin-top: -88px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 6px #999999;
+  }
+  
+  /*Ribbon Ends*/
+  #ribbon:before,
+  #ribbon:after {
+    content: "";
+    width: 3px;
+    bottom: 18px;
+    position: absolute;
+    display: block;
+    border: 25px solid #6b4259;
+    box-shadow: 0 8px 6px -6px #999999;
+    z-index: -2;
+  }
+  
+  /*Left Ribbon End*/
+  #ribbon:before {
+    left: -42px;
+    border-right-width: 35px;
+    border-left-color: transparent;
+  }
+  
+  /*Right Ribbon End*/
+  #ribbon:after {
+    right: -42px;
+    border-left-width: 35px;
+    border-right-color: transparent;
+  }
+  
+  /*Wrap*/
+  #nav:before,
+  #nav:after {
+    content: "";
+    bottom: 44px;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    z-index: -1;
+  }
+  
+  /*Left Ribbon Wrap*/
+  #nav:before {
+    left: 0;
+    border-width: 0px 0px 20px 20px;
+    border-color: transparent transparent #6b4259 transparent;
+  }
+  
+  /*Right Ribbon Wrap*/
+  #nav:after {
+    right: 0;
+    border-width: 20px 0px 0px 20px;
+    border-color: transparent transparent transparent #6b4259;
+  }
+  
+  /*Nav Styles*/
+  #nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  #nav li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  #nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  #nav a:hover {
+    color: navy;
+  }
+
+  .inside-logo{
+      width: 250px;
+      
+  }
