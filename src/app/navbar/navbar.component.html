@@ -1,0 +1,28 @@
+<div
+  class="collapse"
+  id="navbarToggleExternalContent"
+  mdbCollapse
+  #externalContent="mdbCollapse"
+>
+  <div class="bg-light p-4">
+    <h5 class="text-white h4">Collapsed content</h5>
+    <span class="text-muted">coming soon!</span>
+  </div>
+</div>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="externalContent.toggle()"
+      aria-controls="navbarToggleExternalContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <h4 class="ribeye mt-3">Amethyst box</h4>
+
+  </div>
+</nav>

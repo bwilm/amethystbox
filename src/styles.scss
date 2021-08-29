@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone';
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:300,400,500');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Ribeye+Marrow&display=swap');
+
+
+@import "../src/amethyst-theme.scss";
+
+body {
+
+    background-image: url('./assets/background1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+.ribeye{
+    font-family: 'Ribeye Marrow', cursive;
+}
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+
+mat-sidenav {
+    width: 280px;
+    padding:15px;
+}
+.mat-drawer { 
+    background-color: #e2dacc;
+    color:#fff
+}
+.main-content {
+    padding:20px;
+}
+.toolbar-spacer {
+    flex: 1 1 auto;
+}@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
